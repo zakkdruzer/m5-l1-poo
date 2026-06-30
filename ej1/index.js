@@ -1,3 +1,6 @@
+console.log("%cEjercicio 1 - La Clase Círculo", "font-weight: bold; color: green; font-size: 15px;");
+console.log("")
+
 class Circulo {
   constructor(radio) {
     this.radio = radio;
