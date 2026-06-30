@@ -34,33 +34,33 @@ const miPerfil = {
 };
 
 // 1) Presentación completa
-console.log("1) Presentación completa")
+console.log("--- 1) Presentación completa ---")
 miPerfil.presentarse();
 console.log("")
 
 // 2) Nivel de experiencia
-console.log("2) Nivel de experiencia")
+console.log("--- 2) Nivel de experiencia ---")
 console.log(`Nivel de experiencia: ${miPerfil.nivelExperiencia()}`);
 console.log("")
 
 // 3) Agregar 2 lenguajes nuevos
-console.log("3) Agregar 2 lenguajes nuevos")
+console.log("--- 3) Agregar 2 lenguajes nuevos ---")
 miPerfil.agregarLenguaje('TypeScript');
 miPerfil.agregarLenguaje('React');
 console.log("")
 
 // 4) Intentar agregar uno repetido
-console.log("4) Intentar agregar uno repetido")
+console.log("--- 4) Intentar agregar uno repetido ---")
 miPerfil.agregarLenguaje('JavaScript');
 console.log("")
 
 // 5) Imprimir nuevamente la lista de lenguajes
-console.log("5) Imprimir nuevamente la lista de lenguajes")
+console.log("--- 5) Imprimir nuevamente la lista de lenguajes ---")
 console.log('Lenguajes actuales:', miPerfil.lenguajes);
 console.log("")
 
 // 6) Recorrer e imprimir todas las propiedades que no sean funciones
-console.log("6) Recorrer e imprimir todas las propiedades que no sean funciones")
+console.log("--- 6) Recorrer e imprimir todas las propiedades que no sean funciones ---")
 console.log('--- Propiedades del perfil ---');
 for (const clave in miPerfil) {
   if (typeof miPerfil[clave] !== 'function') {
