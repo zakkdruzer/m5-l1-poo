@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 5 · Figuras Geométricas Polimórficas</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <section class="hero">
+        <span class="badge">Ejercicio 5</span>
+        <h1>Figuras Geométricas Polimórficas</h1>
+        <p>
+          Crea una clase base <code>Figura</code> y varias subclases que sobreescriban <code>area()</code>
+          para demostrar polimorfismo.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <p class="section-title">Instrucciones</p>
+
+      <section class="card">
+        <h2>Lo que debes implementar</h2>
+        <p>
+          Crea una clase base <code>Figura</code> con la propiedad <code>color</code> y un método
+          <code>area()</code> abstracto que lance un error. Luego crea <code>Triangulo</code>,
+          <code>Rectangulo</code> y <code>Circulo</code> usando <code>extends</code> y sobrescribe <code>area()</code>.
+        </p>
+        <p>
+          Después crea un canvas con al menos 6 figuras, recórrelas con <code>forEach</code>, llama
+          <code>describir()</code> en cada una y suma el área total.
+        </p>
+      </section>
+
+      <p class="notice">
+        La lógica va en <code>index.js</code>. Abre la consola para ver los resultados.
+      </p>
+    </main>
+
+    <footer>
+      <p>Usa <code>F12</code> para abrir la consola.</p>
+      <p><a href="../">← Volver a la portada</a></p>
+    </footer>
+  </div>
+
+  <script src="./index.js" defer></script>
+</body>
+</html>
